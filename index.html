@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Cálculo de IMC</title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="assets/css/foundation.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+
+  <script src="assets/js/modernizr.foundation.js"></script>
+</head>
+<body>
+
+   <nav class="top-bar">
+      <div class="row">
+        <div class="twelve columns">
+           <h5 class="name">Meus pacientes</h5>
+        </div>
+      </div>
+   </nav>
+
+  <div class="row">
+    <div class="twelve columns">
+      <h1>Meus pacientes</h1>
+      <hr />
+    </div>
+
+    <div class="twelve columns">
+      <table class="twelve table-stripe table-border">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Peso(Kg)</th>
+            <th>Altura(m)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jamess</td>
+            <td>104</td>
+            <td>1.77</td>
+          </tr>
+          <tr>
+            <td>Gabi</td>
+            <td>74</td>
+            <td>1.60</td>
+          </tr>
+        </tbody>
+      </table>
+      <a class="button" href="#">Calcular imc's</a>
+    </div>
+  </div>
+
+   <div class="row">
+      <div class="twelve columns">
+         <h1>Adicionar novo paciente</h1>
+         <hr />
+      </div>
+
+      <div class="twelve columns">
+         <form>
+            <div class="row">
+               <div class="twelve columns">
+                  <label>Nome:</label>
+                  <input type="text" placeholder="Digite o nome do seu paciente" />
+               </div>
+
+               <div class="six columns">
+                  <label>Peso:</label>
+                  <input type="text" placeholder="Digite o peso do seu paciente" />
+               </div>
+
+               <div class="six columns">
+                  <label>Altura:</label>
+                  <input type="text" placeholder="Digite a altura do seu paciente" />
+               </div>
+            </div>
+
+            <a href="#" class="button">Adicionar</a>
+         </form>
+      </div>
+   </div>
+
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/jquery.foundation.mediaQueryToggle.js"></script>
+  <script src="assets/js/jquery.foundation.forms.js"></script>
+  <script src="assets/js/jquery.foundation.reveal.js"></script>
+  <script src="assets/js/jquery.foundation.orbit.js"></script>
+  <script src="assets/js/jquery.foundation.navigation.js"></script>
+  <script src="assets/js/jquery.foundation.buttons.js"></script>
+  <script src="assets/js/jquery.foundation.tabs.js"></script>
+  <script src="assets/js/jquery.foundation.tooltips.js"></script>
+  <script src="assets/js/jquery.foundation.accordion.js"></script>
+  <script src="assets/js/jquery.placeholder.js"></script>
+  <script src="assets/js/jquery.foundation.alerts.js"></script>
+  <script src="assets/js/jquery.foundation.topbar.js"></script>
+  <script src="assets/js/jquery.foundation.joyride.js"></script>
+  <script src="assets/js/jquery.foundation.clearing.js"></script>
+  <script src="assets/js/jquery.foundation.magellan.js"></script>
+  -->
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+
+  <!-- Initialize JS Plugins -->
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
