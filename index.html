@@ -45,22 +45,25 @@
             <th>Nome</th>
             <th>Peso(Kg)</th>
             <th>Altura(m)</th>
+            <th>IMC</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Jamess</td>
-            <td>104</td>
-            <td>1.77</td>
+          <tr class="paciente">
+            <td class="info-nome">Jamess</td>
+            <td class="info-peso">104</td>
+            <td class="info-altura">1.77</td>
+            <td class="info-imc"></td>
           </tr>
-          <tr>
-            <td>Gabi</td>
-            <td>74</td>
-            <td>1.60</td>
+          <tr class="paciente">
+            <td class="info-nome">Gabi</td>
+            <td class="info-peso">74</td>
+            <td class="info-altura">1.60</td>
+            <td class="info-imc"></td>
           </tr>
         </tbody>
       </table>
-      <a class="button" href="#">Calcular imc's</a>
+      <button id="calcula-imcs" class="button">Calcular imc's</button>
     </div>
   </div>
 
@@ -89,7 +92,7 @@
                </div>
             </div>
 
-            <a href="#" class="button">Adicionar</a>
+            <button id="adicionar-paciente" class="button">Adicionar</button>
          </form>
       </div>
    </div>
@@ -121,6 +124,10 @@
 
   <!-- Initialize JS Plugins -->
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/percorre.js"></script>
+  <script src="assets/js/calcula-imc.js"></script>
+  <script src="assets/js/imprime-nome.js"></script>
+  <script src="assets/js/adiciona.js"></script>
 
 </body>
 </html>
